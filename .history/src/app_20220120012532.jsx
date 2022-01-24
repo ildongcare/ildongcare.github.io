@@ -1,5 +1,6 @@
 import './app.css';
-import Logo from './components/logo';
+import Habit from './components/habit';
+
 function App() {
   return <Logo />;
 }
