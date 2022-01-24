@@ -3,13 +3,14 @@
   <head>
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <meta property="og:type" content="website" />
     <meta property="og:title" content="og 테스트 중입니다. " />
-    <meta property="og:image" content="images/bukwang.jpeg" />
+    <meta
+      property="og:image"
+      content="{{ url_for('inages', filename='bukwang.jpeg') }}"
+    />
     <meta property="og:url" content="https://github.com/bukwangmedika" />
     <meta property="og:description" content="부광메디카" />
-
     <meta charset="utf-8" />
     <meta name="theme-color" content="#000000" />
     <meta
