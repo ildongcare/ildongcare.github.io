@@ -12,6 +12,7 @@ const Logo = props => (
     <img className={styles.logo} src="/images3/7.jpeg" />
     <img className={styles.logo} src="/images3/8.jpeg" />
     <img className={styles.logo} src="/images3/9.jpeg" />
+    <img className={styles.logo} src="/images3/11.jpeg" />
     <img className={styles.logo} src="/images3/12.jpeg" />
   </>
 );
