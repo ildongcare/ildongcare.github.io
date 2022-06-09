@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './logo.module.css';
 
-const Logo = () => (
+const Logo = props => (
   <>
     <img className={styles.logo} src="/images3/1.jpeg" alt="description of image" />
     <img className={styles.logo} src="/images3/2.jpeg" alt="description of image" />
